@@ -1,6 +1,6 @@
 /* Common shared styles */
-.body {
-    font-family: "Open Sans", sans-serif;
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .text-primary {
     color: #FD6E0A;
