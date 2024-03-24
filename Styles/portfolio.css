@@ -98,3 +98,12 @@ main{
 .about-info{
     text-align: center;
 }
+#what-i-do-descrip{
+    padding: 30px 150px;
+}
+.skills-container{
+    display: flex;
+}
+.skill{
+    padding: 30px;
+}
