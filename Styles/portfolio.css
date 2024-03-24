@@ -122,7 +122,32 @@ main{
 .resume-item-description, .resume-title-institite{
     color: #757575;
 }
+.resume-colom-title{
+    font-size: 20px;
+    font-weight: 700;
+}
 .download-cv{
     text-align: center;
     margin-top: 50px;
+}
+footer{
+    display: flex;
+    background: #FFF8F3;
+    padding: 130px 150px;
+    margin-top: 100px;
+}
+.footer-colom{
+    width: 50%;
+    gap: 50px;
+}
+.contact input[type='text'], .contact input[type='email'], textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 50px;
+    color: #757575;
+    border: none;
+    width: 100%;
+}
+.social-links a {
+    margin-right: 25px;
 }
