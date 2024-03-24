@@ -103,7 +103,26 @@ main{
 }
 .skills-container{
     display: flex;
+    gap: 24px;
+    margin-bottom: 100px;
 }
 .skill{
     padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    background: #FFF;
+}
+.skill-description{
+    color: #757575;
+}
+.resume-container{
+    display: flex;
+    gap: 50px;
+}
+.resume-item-description, .resume-title-institite{
+    color: #757575;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
 }
