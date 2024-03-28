@@ -151,3 +151,45 @@ footer{
 .social-links a {
     margin-right: 25px;
 }
+
+/* Responsive */
+
+@media screen and (max-width: 576px) {
+    .skills-container{
+        flex-direction: column;
+    }
+    #what-i-do-descrip{
+        padding: 20px;
+    }
+    .resume-container{
+        flex-direction: column;
+    }
+    footer{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .footer-colom{
+        width: 100%;
+    }
+    .contact input[type='text'], .contact input[type='email'], textarea{
+        width: 70%;
+    }
+    .about{
+        padding: 20px;
+    }
+    .about-info-container{
+        flex-direction: column;
+    }
+    .banner, nav,ul{
+        flex-direction: column;
+    }
+    .banner .profile-pic{
+        width: 100%;
+    }
+    .button-primary{
+        margin-bottom: 10px;
+    }
+    nav > ul{
+        gap: 10px;
+    }
+}
